@@ -1,0 +1,13 @@
+default_random_words_count: 10
+selectors:
+  html:
+    randomized:
+      - p
+      - a
+      - li
+      - title
+    removed:
+      - h1
+      - h2
+      - h3
+      - h4
